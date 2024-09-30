@@ -1,0 +1,80 @@
+/* Apply background image to the whole page */
+/* Ensure the body takes up full height and center content */
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhicSzx_0m2yjT6fAm45ROUoen32Jl9h5fgsciclwuQ5PsFhsqBb7LA0XyQbhiJHaO2M&usqp=CAU'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Allows vertical alignment */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the registration heading */
+h1 {
+    position: absolute; /* Absolute positioning to place at the top */
+    top: 80px; /* Distance from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally by adjusting for element width */
+    margin: 0;
+    font-size: 60px; /* Optional: Adjust size of the heading */
+    color: white; /* Optional: Set color for better visibility */
+}
+
+/* Style for the registration form */
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+.navbar-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style for form elements */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+button:hover {
+    background-color: maroon;
+}
+

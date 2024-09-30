@@ -1,0 +1,77 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-right-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.top-right-container a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.top-right-container a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+form label {
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: maroon;
+}
+
